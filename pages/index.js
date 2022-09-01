@@ -26,9 +26,9 @@ export default function Home() {
         </div>
       </div>
       {/* Hero */}
-      <div className="container mx-auto flex row  bg-amber-400 rounded-lg h-[340px]">
-        <div className="container mx-auto ml-[50px]">
-          <span className="flex justify ml-[45px]  mt-[30px]">
+      <div className="container mx-auto grid grid-cols-2 bg-amber-400 rounded-lg h-[350px]">
+        <div className="pt-10 pl-20">
+          <div className="flex justify ml-[45px]  mt-[30px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -41,74 +41,57 @@ export default function Home() {
                 clipRule="evenodd"
               />
             </svg>
-            <p className="text-[20px] font-bold ml-[5px]">
+            <p className="text-lg font-semibold ml-4 ">
               Pusat edukasi bisnis Ocistok by HabisKerja
             </p>
-          </span>{" "}
-          <br></br>
-          <div className="ml-[40px]">
-            <span className="text-[40px] font-Inter text-black font-bold">
-              <p>
-                saatnya <a className="text-[#FC6D1D] ">#JualanTanpaBatas</a>
-              </p>
-              <p>Update Skill Bisnismu</p>
-              <p>Bersama OCI- skill Academy</p>
-            </span>
+          </div>{" "}
+          <div className="text-4xl font-semibold leading-normal mt-6">
+            <p>
+              saatnya <a className="text-[#FC6D1D] ">#JualanTanpaBatas</a>
+            </p>
+            <p>Update Skill Bisnismu</p>
+            <p>Bersama OCI- skill Academy</p>
           </div>
         </div>
 
-        <div className="container flex flex-row ">
-          <div className="pt-[25px]">
+        <div className="">
+          <div className=" float-right mr-24">
+            <Image src={Logo3} alt="abiskerja" width={236} height={90} />{" "}
+          </div>
+
+          <div className="pt-[75px]">
             <Image
               src={Img1}
               alt="logo ociskill"
-              width={412}
-              height={315}
+              width={352}
+              height={275}
               className="ml-[300px]"
             />{" "}
           </div>
-          <div>
-            {" "}
-            <Image src={Logo3} alt="abiskerja" width={236} height={90} />{" "}
-          </div>
         </div>
-
-        {/* <div className="container mx-auto float-left ml-[80px]">
-            <span className="text-[35px] font-Inter text-black font-bold">
-              <p>
-                saatnya <a className="text-[#FC6D1D] ">#JualanTanpaBatas</a>
-              </p>
-              <p>Update Skill Bisnismu</p>
-              <p>Bersama OCI- skill Academy</p>
-            </span>
-          </div>
-
-          <div className="container mx-auto ">
-            <Image src={Img1} alt="logo ociskill" width={412} height={315} />
-          </div> */}
       </div>
-      {/* vidie */}
-      <div className="container mx-auto mt-[54px] font-Poppins">
+      {/* vidio */}
+      <div className="container mx-auto  mt-12">
         {/* judul */}
         <div className="text-center">
           <span>
-            <h1 className="text-[#FC6D1D] font-bold text-[40px]">
+            <h1 className="text-[#FC6D1D] font-bold text-4xl">
               Jelajahi Skill Baru
             </h1>
-            <p className="font-semibold text-[25px]">
+            <p className="font-medium text-lg mt-2">
               Berbagai macam pilihan topik untuk meningkatkan skill bisnismu
             </p>
           </span>
         </div>
 
         {/* button */}
-        <div className="flex flex-wrap justify-center gap-9 mt-[20px] ">
+        <div className="flex flex-wrap justify-center gap-9 mt-[20px]  ">
           <button
             type="button"
             onClick={() => setActive("Topik_terbaru")}
             className={`${
               active === "Topik_terbaru" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            } px-4 py-1 border border-black rounded-lg`}
           >
             {" "}
             Topik Baru{" "}
@@ -118,7 +101,7 @@ export default function Home() {
             onClick={() => setActive("semuaTopik")}
             className={`${
               active === "semuaTopik" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            } px-4 py-1 border border-black rounded-lg`}
           >
             {" "}
             Semuah Topik{" "}
@@ -128,7 +111,7 @@ export default function Home() {
             onClick={() => setActive("mpOptmize")}
             className={`${
               active === "mpOptmize" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            } px-4 py-1 border border-black rounded-lg`}
           >
             {" "}
             Marketplace Optimization
@@ -138,7 +121,7 @@ export default function Home() {
             onClick={() => setActive("sosialmar")}
             className={`${
               active === "sosialmar" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            }  px-4 py-1 border border-black rounded-lg`}
           >
             {" "}
             Social Media Marketing{" "}
@@ -148,7 +131,7 @@ export default function Home() {
             onClick={() => setActive("brand")}
             className={`${
               active === "brand" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            } px-4 py-1 border border-black rounded-lg`}
           >
             {" "}
             Branding{" "}
@@ -158,7 +141,7 @@ export default function Home() {
             onClick={() => setActive("digitMar")}
             className={`${
               active === "digitMar" ? "bg-orange-400" : ""
-            } w-[165px] h-[44] border border-black`}
+            } px-3 py-1 border border-black rounded-lg`}
           >
             {" "}
             Digital Marketing{" "}
@@ -256,32 +239,29 @@ export default function Home() {
         </div>
       </div>
       {/* footer atas */}``
-      <div className="container mx-auto  bg-amber-400 rounded-lg text-center h-[350px] font-Inter text-black">
+      <div className="container mx-auto mt-12 bg-amber-400 rounded-xl text-center h-[320px] text-black">
         <div>
-          <h1 className="text-[40px] mt-[44px] font-bold">
+          <h1 className="text-4xl  pt-12 font-bold">
             Pengen belajar lebih mendalam?
           </h1>
 
-          <p className="mt-[18px] text-[25px] leading-[24px]">
+          <p className="mt-4   px-36 text-xl  font-semibold leading-relaxed">
             Kunjungi Handbook HabisKerja untuk mendapatkan skill bisnis di-era
-            digital yang{" "}
-          </p>
-          <p className="mt-[18px] text-[25px] leading-[24px]">
-            {" "}
+            digital yang <br />
             lebih lengkap dengan ahlinya!
           </p>
         </div>
         <div>
           <button
             type="button"
-            className="w-[350px] h-[60px] bg-black/70 hover:bg-black/80 text-white text-[40px] font-Inter  text-center mt-[93px]"
+            className="px-8 py-3 bg-black/70 hover:bg-black/80 text-white text-xl font-Inter  text-center mt-[93px] rounded-md"
           >
             Lihat Handbook
           </button>
         </div>
       </div>
       {/* footer terngah */}
-      <div className="container mx-auto bg-amber-400 font-Inter text-white h-[550px] mt-[21px]">
+      <div className="container mx-auto bg-amber-400 font-Inter text-white py-2 mt-[21px]">
         <div className="flex space-x-[178px] pt-[44px]">
           <div>
             <Image
@@ -377,7 +357,7 @@ export default function Home() {
         </div>
       </div>
       {/* Footer bawah */}
-      <div className=" text-gray-600 text-center ">
+      <div className=" text-gray-600 text-center my-5">
         <div>
           <p>Copyright &copy; Ocommerce Capital Indonesia</p>
         </div>
