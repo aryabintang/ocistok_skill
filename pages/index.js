@@ -58,11 +58,11 @@ export default function Home() {
         </div>
 
         <div className="container flex flex-row ">
-          <div className="pt-[57px]">
+          <div className="pt-[25px]">
             <Image
               src={Img1}
               alt="logo ociskill"
-              width={312}
+              width={412}
               height={315}
               className="ml-[300px]"
             />{" "}
