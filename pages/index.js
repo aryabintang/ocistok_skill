@@ -243,7 +243,7 @@ export default function Home() {
         </button>
       </div>
       {/* footer terngah */}
-      <div className='container mx-auto bg-amber-400 font-Inter text-white py-2 mt-[21px]'>
+      <div className='container mx-auto bg-amber-400 text-white py-2 mt-[21px]'>
         <div className='flex space-x-[178px] pt-[44px]'>
           <div>
             <Image
