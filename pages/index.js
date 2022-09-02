@@ -158,7 +158,18 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-4 mt-[40px]">
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/AhLbgWcUbVg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -189,7 +200,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -199,7 +221,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -209,7 +242,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -219,7 +263,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -229,7 +284,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
@@ -239,7 +305,18 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 w-[20rem]">
-            <div className="w-[20rem] h-[11rem] border border-black"></div>
+            <div className="w-[20rem] h-[11rem] border border-black">
+              {" "}
+              <iframe
+                width="320"
+                height="176"
+                src="https://www.youtube.com/embed/qYfiK41iEPE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <p className="text-2xl font-extrabold mt-2">
               Belajar Tentang Hal Baru Dengan Ociskill
             </p>
