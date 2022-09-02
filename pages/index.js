@@ -175,9 +175,9 @@ export default function Home() {
                 height="176"
                 src="https://www.youtube.com/embed/qYfiK41iEPE"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <p className="text-2xl font-extrabold mt-2">
@@ -265,7 +265,7 @@ export default function Home() {
         <div>
           <button
             type="button"
-            className="px-8 py-3 bg-black/70 hover:bg-black/80 text-white text-xl font-Inter  text-center mt-[93px] rounded-md"
+            className="px-8 py-3 bg-black/70 hover:bg-black/80 text-white text-xl font-Inter  text-center mt-[50px] rounded-md"
           >
             Lihat Handbook
           </button>
