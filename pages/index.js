@@ -47,7 +47,7 @@ export default function Home() {
           </div>{" "}
           <div className="text-4xl font-semibold leading-normal mt-6">
             <p>
-              saatnya <a className="text-[#FC6D1D] ">#JualanTanpaBatas</a>
+              Saatnya <a className="text-[#FC6D1D] ">#JualanTanpaBatas</a>
             </p>
             <p>Update Skill Bisnismu</p>
             <p>Bersama OCI- skill Academy</p>
