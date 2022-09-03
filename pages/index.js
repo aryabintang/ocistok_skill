@@ -26,9 +26,9 @@ export default function Home() {
         </div>
       </div>
       {/* Hero */}
-      <div className="container mx-auto grid grid-cols-2 bg-amber-400 rounded-lg h-[350px]">
-        <div className="pt-10 pl-20">
-          <div className="flex justify ml-[45px]  mt-[30px]">
+      <div className="container mx-auto grid grid-cols-2 bg-oren-bg rounded-lg h-[350px]">
+        <div className="pt-7 pl-16">
+          <div className="flex justify ml-[px]  mt-[30px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -90,28 +90,34 @@ export default function Home() {
             type="button"
             onClick={() => setActive("Topik_terbaru")}
             className={`${
-              active === "Topik_terbaru" ? "bg-orange-400" : ""
-            } px-4 py-1 border border-black rounded-lg`}
+              active === "Topik_terbaru"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
             Topik Baru{" "}
           </button>
           <button
             type="button"
-            onClick={() => setActive("semuaTopik")}
+            onClick={() => setActive("smTopik")}
             className={`${
-              active === "semuaTopik" ? "bg-orange-400" : ""
-            } px-4 py-1 border border-black rounded-lg`}
+              active === "smTopik"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
-            Semuah Topik{" "}
+            Semua Topik{" "}
           </button>
           <button
             type="button"
             onClick={() => setActive("mpOptmize")}
             className={`${
-              active === "mpOptmize" ? "bg-orange-400" : ""
-            } px-4 py-1 border border-black rounded-lg`}
+              active === "mpOptmize"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
             Marketplace Optimization
@@ -120,8 +126,10 @@ export default function Home() {
             type="button"
             onClick={() => setActive("sosialmar")}
             className={`${
-              active === "sosialmar" ? "bg-orange-400" : ""
-            }  px-4 py-1 border border-black rounded-lg`}
+              active === "sosialmar"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
             Social Media Marketing{" "}
@@ -130,8 +138,10 @@ export default function Home() {
             type="button"
             onClick={() => setActive("brand")}
             className={`${
-              active === "brand" ? "bg-orange-400" : ""
-            } px-4 py-1 border border-black rounded-lg`}
+              active === "brand"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
             Branding{" "}
@@ -140,23 +150,19 @@ export default function Home() {
             type="button"
             onClick={() => setActive("digitMar")}
             className={`${
-              active === "digitMar" ? "bg-orange-400" : ""
-            } px-3 py-1 border border-black rounded-lg`}
+              active === "digitMar"
+                ? "bg-oren-btn border border-oren-bd text-white"
+                : ""
+            } px-4 py-1 border border-black rounded-lg font-medium`}
           >
             {" "}
             Digital Marketing{" "}
           </button>
-          {/* <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Topik Baru</a></p>
-            <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Semuah Topik</a></p>
-            <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Marketplace Optimization</a></p>
-            <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Social Media Marketing</a></p>
-            <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Branding</a></p>
-            <p className='px-3 py-1  bg-amber-400 w-[150px] h-[44]'><a className='max-auto'> Digital Marketing</a></p> */}
         </div>
 
         {/* video */}
 
-        <div className="flex flex-wrap justify-center gap-4 mt-[40px]">
+        <div className="flex flex-wrap justify-center gap-9 mt-[40px]">
           <div className="flex-shrink-0 w-[20rem]">
             <div className="w-[20rem] h-[11rem] border border-black">
               {" "}
@@ -327,7 +333,7 @@ export default function Home() {
         </div>
       </div>
       {/* footer atas */}``
-      <div className="container mx-auto mt-12 bg-amber-400 rounded-xl text-center h-[320px] text-black">
+      <div className="container mx-auto mt-12 bg-oren-bg rounded-xl text-center h-[320px] text-black">
         <div>
           <h1 className="text-4xl  pt-12 font-bold">
             Pengen belajar lebih mendalam?
@@ -349,7 +355,7 @@ export default function Home() {
         </div>
       </div>
       {/* footer terngah */}
-      <div className="container mx-auto bg-amber-400 font-Inter text-white py-2 mt-[21px]">
+      <div className="container mx-auto bg-oren-ftr font-Inter text-white py-2 mt-[21px]">
         <div className="flex space-x-[178px] pt-[44px]">
           <div>
             <Image
